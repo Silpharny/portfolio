@@ -52,9 +52,8 @@ const Header = () => {
               <a className="hover:text-blue-600 font-medium text-center p-2" href="#hero">Home</a>
               <a className="hover:text-blue-600 font-medium text-center p-2" href="#about">Sobre Mim</a>
               <a className="hover:text-blue-600 font-medium text-center p-2" href="#skills">Skills</a>
-              <a className="hover:text-blue-600 font-medium text-center p-2" href="#services">Serviços</a>
               <a className="hover:text-blue-600 font-medium text-center p-2" href="#projects">Projetos</a>
-              <a className="hover:text-blue-600 font-medium text-center p-2" href="#contact">Contact</a>
+              <a className="hover:text-blue-600 font-medium text-center p-2" href="#contact">Contato</a>
             </li>
           </ul>
       </nav>      

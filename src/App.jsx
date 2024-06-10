@@ -9,7 +9,7 @@ export default function App() {
   return (
     <>
       <Header/>
-      <Outlet />
+      <Outlet className='bg-black'/>
       <Footer />
     </>
   )
