@@ -11,6 +11,7 @@ import Css from '../../assets/HomePage/css.svg'
 import Tailwindcss from '../../assets/HomePage/Tailwind.svg'
 
 import Html from '../../assets/HomePage/html.svg'
+import SkillsCard from "./SkillsCard"
 
 const Skills = () => {
   return (
@@ -69,6 +70,32 @@ const Skills = () => {
                     thirdTitle="Aprendizado rápido e eficiente"
                     thirdSpan="- Busco aprender o que realmente é crucial para resolver os problemas(80/20), sendo assim, a cada novo desafio eu aprimoro mais minhas habilidades"
                 />
+            </div>
+            <div className="my-4">
+                <h3 className="text-3xl font-bold text-start">Trabalhos & Experiências</h3>
+                <div className="max-w-full mt-10 flex gap-20">
+                    <SkillsCard 
+                        work="Marketing"
+                        workMode="Remoto"
+                        year="2020-2021"
+                        company="Drogaria Favorita"
+                        text="Responsável pelo departamento de marketing da Empresa. (Social Media / Tráfego Pago)"
+                    />
+                    <SkillsCard 
+                        work="Web design"
+                        workMode="Remoto"
+                        year="2022-2024"
+                        company="Freelancer"
+                        text="Responsável pela criação da identidade visual de marcas até a concepção da Landing Page"
+                    />
+                    <SkillsCard 
+                        work="E-commerce"
+                        workMode="Remoto"
+                        year="2024"
+                        company="Vanilla Eyewear"
+                        text="Criação completo do E-commerce através da Shopify. Criação da identidade visual da marca até a criação do site e manunteção"
+                    />
+                </div>
             </div>
         </div>
     </section>

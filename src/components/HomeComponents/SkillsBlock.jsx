@@ -7,7 +7,7 @@ const SkillsBlock = (props) => {
         </label>
       </h4>
       <ul>
-        <li className="flex items-center justify-between gap-3 hover:shadow-lg shadow-md border-b-violet-400 border-2 border-zinc-50 max-w-[400px] p-5 mt-4 rounded-md transition-all ease-in-out 3s">
+        <li className="flex items-center justify-between gap-3 hover:shadow-lg shadow-md border-b-violet-400 border-2 border-zinc-50 max-w-[400px] p-5 mt-4 rounded-md transition-all hover:scale-105 ease-in-out 3s">
           <div>
             <span className="mb-1">{props.year}</span>
             <p className={ props.label=="Skills" ? "w-28" : 'text-base font-extralight'}>
@@ -19,7 +19,7 @@ const SkillsBlock = (props) => {
             <img className="w-14 hover:w-[60px] transition-all" src={props.secImg} />
           </div>
         </li>
-        <li className="flex items-center justify-between gap-3 hover:shadow-lg shadow-md border-b-violet-400 border-2 border-zinc-50 max-w-[400px] p-5 mt-4 rounded-md transition-all ease-in-out 3s">
+        <li className="flex items-center justify-between gap-3 hover:shadow-lg shadow-md border-b-violet-400 border-2 border-zinc-50 max-w-[400px] p-5 mt-4 rounded-md transition-all hover:scale-105 ease-in-out 3s">
           <div>
             <span className="mb-1">{props.secondYear}</span>
             <p className="text-base font-extralight">
@@ -31,7 +31,7 @@ const SkillsBlock = (props) => {
             <img className="w-14 hover:w-[60px] transition-all" src={props.secondSecImg} />
           </div>
         </li>
-        <li className="flex items-center justify-between gap-3 hover:shadow-lg shadow-md border-b-violet-400 border-2 border-zinc-50 max-w-[400px] p-5 mt-4 rounded-md transition-all ease-in-out 3s">
+        <li className="flex items-center justify-between gap-3 hover:shadow-lg shadow-md border-b-violet-400 border-2 border-zinc-50 max-w-[400px] p-5 mt-4 rounded-md transition-all hover:scale-105 ease-in-out 3s">
           <div>
             <span className="mb-1">{props.thirdYear}</span>
             <p className="text-base font-extralight">
@@ -43,7 +43,7 @@ const SkillsBlock = (props) => {
             <img className="w-14 hover:w-[60px] transition-all" src={props.thirdSecImg} />
           </div>
         </li>
-        <li className={props.label=="Skills" ? "flex items-center justify-between gap-3 hover:shadow-lg shadow-md border-b-violet-400 border-2 border-zinc-50 max-w-[400px] p-5 mt-4 rounded-md transition-all ease-in-out 3s" : "visible"}>
+        <li className={props.label=="Skills" ? "flex items-center justify-between gap-3 hover:shadow-lg shadow-md border-b-violet-400 border-2 border-zinc-50 max-w-[400px] p-5 mt-4 rounded-md transition-all hover:scale-105 ease-in-out 3s" : "visible"}>
           <div>
             <span className="mb-1">{props.fourthYear}</span>
             <p className="text-base font-extralight">
