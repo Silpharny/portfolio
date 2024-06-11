@@ -15,14 +15,14 @@ import SkillsCard from "./SkillsCard"
 
 const Skills = () => {
   return (
-    <section className="flex flex-col items-center justify-center relative lg:my-28" id="skills">
+    <section className="flex flex-col items-center justify-center relative lg:my-28 mb-14 lg:mb-0 p-4 lg:p-0" id="skills">
         <TitleSection title="Skills" />
         <div className="flex flex-col">
-            <div className="max-w-[700px] mb-11">
-                <h3 className="text-3xl font-bold text-start">Educação & Skills</h3>
-                <p>Mais de 3 anos com experiência em Social Media e tráfego pago e 9 meses desenvolvendo sites modernos para clientes ao redor do mundo.</p>
+            <div className="lg:max-w-[700px] self-center lg:self-start mb-11">
+                <h3 className="text-xl lg:text-3xl font-bold text-start">Educação & Skills</h3>
+                <p className="w-[330px] lg:w-full text-justify lg:text-left">Mais de 3 anos com experiência em Social Media e tráfego pago e 9 meses desenvolvendo sites modernos para clientes ao redor do mundo.</p>
             </div>
-            <div className="grid grid-cols-3 gap-5 my-0 mx-auto mb-20">
+            <div className="lg:grid lg:grid-cols-3 flex flex-col gap-5 my-0 mx-auto lg:mb-20">
                 <SkillsBlock
                     label="Educação"
                     
@@ -72,8 +72,8 @@ const Skills = () => {
                 />
             </div>
             <div className="my-4">
-                <h3 className="text-3xl font-bold text-start">Trabalhos & Experiências</h3>
-                <div className="max-w-full mt-10 flex gap-20">
+                <h3 className="text-2xl lg:text-3xl mt-10 lg:mt-0 font-bold text-start">Trabalhos & Experiências</h3>
+                <div className="max-w-full lg:mt-10 mt-4 flex flex-col lg:flex-row gap-20">
                     <SkillsCard 
                         work="Marketing"
                         workMode="Remoto"
