@@ -41,6 +41,8 @@ const SkillsBlock = (props) => {
           <div className={props.img ? "flex gap-1 lg:gap-3" : 'hidden'}>
             <img className="w-10 lg:w-14 hover:w-[60px] transition-all" src={props.thirdImg} />
             <img className="w-10 lg:w-14 hover:w-[60px] transition-all" src={props.thirdSecImg} />
+            <img className="w-10 lg:w-14 hover:w-[60px] transition-all" src={props.thirdThiImg} />
+            <img className="w-10 lg:w-14 hover:w-[60px] transition-all" src={props.thirdFouImg} />
           </div>
         </li>
         <li className={props.label=="Skills" ? "flex items-center justify-between gap-3 hover:shadow-lg bg-[rgba(255,255,255,.9)] rounded-[.4rem] shadow-lg border-b-violet-400 border-2 max-w-[400px] p-5 mt-4 transition-all hover:scale-105 ease-in-out 3s" : "visible"}>

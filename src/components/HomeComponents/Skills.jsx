@@ -9,6 +9,8 @@ import Typescript from '../../assets/HomePage/typescript.svg'
 
 import Css from '../../assets/HomePage/css.svg'
 import Tailwindcss from '../../assets/HomePage/Tailwind.svg'
+import Bootstrap from '../../assets/HomePage/Bootstrap.svg'
+import Sass from '../../assets/HomePage/sass.svg'
 
 import Html from '../../assets/HomePage/html.svg'
 import SkillsCard from "./SkillsCard"
@@ -54,6 +56,8 @@ const Skills = () => {
                     thirdTitle="Design"
                     thirdImg={Css}
                     thirdSecImg={Tailwindcss}
+                    thirdThiImg={Bootstrap}
+                    thirdFouImg={Sass}
 
                     fourthTitle="Linguagem de marcação"
                     fourthImg={Html}
